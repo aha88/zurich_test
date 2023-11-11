@@ -1,6 +1,4 @@
 import React from 'react';
-import Head from 'next/head'
-import Image from 'next/image'
 import { Button, Card, CardBody, Col, Container, Row } from 'react-bootstrap'
 import { useDispatch, useSelector } from 'react-redux';
 import { useRouter } from 'next/router';
@@ -27,7 +25,6 @@ export default function Home() {
     <Container >
       <Row>
         <Col className='fullscreen' md={{ span: 3, offset: 1 }}>
-
           <Card className='shadow boxcenter showdow  text-center'>
             <CardBody>
               <Row>
@@ -42,8 +39,6 @@ export default function Home() {
               </Row>
             </CardBody>
           </Card>
-
-
         </Col>
       </Row >
 

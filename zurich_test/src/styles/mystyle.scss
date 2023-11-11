@@ -27,9 +27,17 @@ body {
         margin-bottom: 30ox;
     }
 
+    .bbcontainer {
+        height: 100vh;
+    }
+
     .containerBody {
         margin-top: 50px;
-        height: 100vh;
+        margin-bottom: 15px;
+
+        .boximg {
+            margin: 10px;
+        }
 
         @media (max-width:517px) {
             display: flex;

@@ -14,7 +14,7 @@ export const Header = () => {
       router.push('/');
     }
 
-  })
+  }, [])
 
   return <nav className="navbar sticky-bottom bg-body-tertiary">
     <div className="container-fluid">
